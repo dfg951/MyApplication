@@ -46,8 +46,8 @@ class MainActivity : ComponentActivity(), View.OnClickListener {
         btnMult.setOnClickListener(this);
         btnDiv.setOnClickListener(this);
         btnExp.setOnClickListener(this);
-        etA = findViewById(R.id.et_a)
-        etB = findViewById(R.id.et_b)1
+        etA = findViewById(R.id.et_a);
+        etB = findViewById(R.id.et_b);
     }
 
     override fun onClick(v: View?) {
